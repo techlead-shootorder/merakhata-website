@@ -1,0 +1,563 @@
+body {
+  font-family: "Lato", sans-serif;
+  overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+.padding-b-30 {
+  padding-bottom: 30px;
+}
+.padding-50 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.padding-30 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.padding-60 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.padding-lr-60 {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.padding-top-100 {
+  padding-top: 100px;
+}
+.desktop-banner {
+  display: block;
+}
+.mobile-banner {
+  display: none;
+}
+@media (max-width: 780px) {
+  .desktop-banner {
+    display: none;
+  }
+  .mobile-banner {
+    display: block;
+  }
+}
+.btn-blue {
+  background-color: #1354a3;
+  color: white;
+  border-radius: 30px;
+  font-size: 14px;
+  padding: 10px;
+  font-weight: 500;
+}
+.btn-blue-sub {
+  background-color: #1354a3;
+  color: white;
+  padding: 10px;
+  border-radius: 0px !important;
+}
+.btn-blue:hover {
+  background-color: #1354a3;
+  color: white;
+}
+nav {
+  font-size: 16px;
+  line-height: 16px;
+  color: #000000 !important;
+  font-weight: 400 !important;
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.1));
+}
+
+a {
+  color: #000000 !important;
+}
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+}
+/*.active{*/
+/*    border-bottom: 1px solid #efefef !important;*/
+/*}*/
+
+.banner-text {
+  margin-top: -287px;
+}
+.banner-text .head {
+  font-size: 34px;
+  font-weight: 900;
+}
+@media (max-width: 780px) {
+  .banner-text {
+    margin-top: -230px;
+  }
+  .banner-text .head {
+    font-size: 20px;
+    font-weight: 900;
+    /* text-align: center; */
+  }
+}
+.banner-text i {
+  color: #3bb64b;
+  padding-right: 5px;
+}
+.banner-text .p {
+  font-size: 21px;
+}
+.form-bg {
+  background-color: white;
+  padding: 30px;
+  margin-top: -304px;
+}
+
+input {
+  height: 50px !important;
+}
+input,
+textarea {
+  border-radius: 0px !important;
+}
+
+.services {
+  background-image: url(../images/bg.png);
+  /*background-size:cover;*/
+  /*background-repeat:repeat;*/
+  /*background-position:center center;*/
+}
+.service-img img {
+  width: 125px;
+  height: 125px;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #1455a5 !important;
+  background-color: #fafafa !important;
+  border-top: 4px solid #1455a5;
+}
+.nav-pills .nav-link {
+  color: black !important;
+  background-color: #e1e1e1 !important;
+  border-top: 4px solid #e1e1e1;
+  padding: 20px 60px;
+  border-radius: 0px;
+  /*width:350px;*/
+}
+@media (max-width: 780px) {
+  .nav-pills .nav-link {
+    margin: 10px;
+  }
+}
+.sp ul li {
+  padding-left: 0rem !important;
+  padding-bottom: 20px;
+}
+.read-btn a button {
+  padding: 4px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.read-btn {
+  text-align: center;
+}
+.ser-img img {
+  width: 423px;
+}
+.rate {
+  background-image: url(../images/rate-bg.png);
+  background-attachment: fixed;
+  padding: 80px 0px;
+}
+/*.rate img{*/
+/*    height:150px;*/
+/*}*/
+.white-text {
+  color: white;
+}
+.contact {
+  background-image: url(../images/contact-bg.png);
+  background-size: cover;
+}
+.contact-form-bg {
+  background-color: #1e1c1c;
+  padding: 30px;
+}
+.contact-form-bg input {
+  background-color: transparent;
+  border: 1px solid #b7b7b7;
+}
+.contact-form-bg textarea {
+  background-color: transparent;
+  border: 1px solid #b7b7b7;
+}
+.contact-icons {
+  padding-top: 30px;
+}
+.contact-icons p i {
+  color: #1455a5;
+  padding-right: 20px;
+  font-size: 25px;
+}
+.footer {
+  background-color: #171925;
+}
+.grey p a {
+  color: #b2a6a6 !important;
+}
+.line {
+  border-bottom: 2px solid #3bb64b;
+  padding-bottom: 5px;
+}
+.social-icons .fa {
+  padding: 8px;
+  width: 41px;
+  text-align: center;
+  margin: 5px 14px;
+  border-radius: 50px;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white !important;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white !important;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white !important;
+}
+.copyrights {
+  background-color: #0b0e17;
+  color: #b2a6a6;
+  padding: 5px 0px;
+}
+
+.address-icon,
+.phone-icon,
+.mail-icon {
+  background-color: white;
+  color: #1354a3;
+  padding: 10px;
+  border-radius: 40px;
+  font-size: 40px;
+}
+.ul {
+  list-style: none;
+  padding: 0;
+}
+.ul li {
+  padding-left: 1.3em;
+}
+.ul li:before {
+  content: "\f101"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  color: #1354a3;
+  display: inline-block;
+  margin-left: -1.3em; /* same as padding-left set on li */
+  width: 1.3em; /* same as padding-left set on li */
+}
+
+.ul1 {
+  list-style-image: url("../images/gray.png");
+}
+.hr {
+  width: 100px;
+  border-top: 3px solid #1354a3;
+  float: left;
+}
+.hr1 {
+  width: 150px;
+  border-top: 3px solid #1354a3;
+}
+.hr2 {
+  width: 150px;
+  border-top: 3px solid #ffffff42;
+}
+.compare-packages {
+  background-color: #f0f6f9;
+}
+.price-was {
+  text-decoration: line-through;
+}
+.price-now {
+  font-weight: bold;
+  font-size: 24px;
+}
+.border-hide {
+  border: none !important;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-bottom: 1px solid black;
+}
+.price-buy {
+  margin-top: 15px;
+  border-radius: 10px;
+}
+.startup {
+  background-color: #009e2c;
+  color: white;
+}
+.smlb {
+  background-color: #0078c1;
+  color: white;
+}
+.green {
+  color: #009e2c;
+  font-size: 24px;
+}
+.blue {
+  color: #0078c1;
+  font-size: 24px;
+}
+.line1 {
+  border-bottom: 3px solid #1354a3;
+  padding-bottom: 10px;
+}
+.line2 {
+  border-bottom: 3px solid white;
+  padding-bottom: 10px;
+}
+.file {
+  background-color: #f1f1f1;
+}
+
+.text-right {
+  text-align: right;
+}
+.pricing {
+  background-color: #232e40;
+}
+.price-heading {
+  border: 1px solid white;
+  border-radius: 50px;
+  color: white;
+  padding: 10px 30px;
+}
+.btn-link {
+  color: #1354a3 !important;
+  text-decoration: none;
+}
+.btn:not(:disabled):not(.disabled) {
+  text-decoration: none;
+}
+.table-dark td:first-child,
+.table-dark th:first-child {
+  padding-left: 60px !important;
+  width: 40%;
+}
+.enq button {
+  padding: 8px 20px;
+  font-size: 15px;
+  border-radius: 0;
+}
+.contact-form {
+  background-image: url("../images/contact-us-abstract.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact-information {
+  background-image: url("../images/contact-us-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.h2 {
+  font-size: 40px;
+}
+@media (max-width: 780px) {
+  .h1 {
+    font-size: 36px;
+  }
+  .h2 {
+    font-size: 30px;
+  }
+}
+.login-register {
+  background-image: url(../images/login-page-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+}
+@media (max-width: 780px) {
+  .login-register {
+    padding: 5px;
+  }
+}
+.log-content {
+  background-color: #1354a3;
+}
+.login-content {
+  padding-left: 15px;
+}
+.login-form {
+  padding: 40px;
+}
+.login-form input {
+  height: 43px !important;
+}
+#updateForm input {
+  height: 43px !important;
+}
+.row-left {
+  padding-right: 0px !important;
+}
+.row-right {
+  padding-left: 0px !important;
+}
+@media (max-width: 780px) {
+  .form-bg {
+    margin-top: 27px;
+  }
+  .nav-pills .nav-link {
+    padding: 20px 35px;
+  }
+
+  .row-left {
+    padding-right: 15px !important;
+  }
+  .row-right {
+    padding-left: 15px !important;
+  }
+  .read-btn {
+    text-align: center;
+  }
+  .hide-div {
+    display: none;
+  }
+}
+.form-check-input {
+  margin-top: -7px;
+}
+.pay-section {
+  background-image: url("../images/pay-now-banner.png");
+  margin-top: 73px;
+}
+p,
+ul,
+a {
+  line-height: 30px;
+}
+/*.descform{*/
+/*    position:fixed;*/
+/*}*/
+
+/*.nav-item.dropdown:hover .dropdown-menu {*/
+/*  display: block;*/
+/*  opacity: 1;*/
+/*  visibility: visible;*/
+/*  transform: translateY(0);*/
+/*  transition: all 0.3s ease-in-out;*/
+/*}*/
+
+/* Initially hide with smooth effect */
+
+/* Hide all nested dropdowns by default */
+/* Base transition for all dropdown menus */
+.dropdown-menu {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: all 0.3s ease-in-out;
+  display: block; /* Always block, but hidden via opacity/visibility */
+  position: absolute;
+  z-index: 1000;
+  min-width: 220px;
+}
+
+/* Main dropdown (ITR) – show on hover */
+.nav-item.dropdown:hover > .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/* Submenus – hide initially */
+.dropdown-submenu > .dropdown-menu {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: all 0.3s ease-in-out;
+  left: 100%;
+  top: 0;
+}
+
+/* Submenus – show on hover */
+.dropdown-submenu:hover > .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/* DESKTOP: Show dropdowns on hover */
+@media (min-width: 992px) {
+  .dropdown:hover > .dropdown-menu {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+}
+
+/* MOBILE: Show dropdowns on focus within */
+/*@media (max-width: 991px) {*/
+/*  .dropdown-menu {*/
+/*    display: none;*/
+/*    position: static;*/
+/*    opacity: 1;*/
+/*    visibility: visible;*/
+/*    background: none;*/
+/*    box-shadow: none;*/
+/*    padding-left: 15px;*/
+/*  }*/
+
+/*  .dropdown-container:focus-within > .dropdown-menu {*/
+/*    display: block;*/
+/*  }*/
+
+/*  .dropdown-submenu {*/
+/*    position: relative;*/
+/*  }*/
+
+/*  .dropdown-submenu .dropdown-menu {*/
+/*    display: none;*/
+/*    position: static;*/
+/*    margin-left: 15px;*/
+/*  }*/
+
+/*  .dropdown-submenu:focus-within > .dropdown-menu {*/
+/*    display: block;*/
+/*  }*/
+
+/*  .dropdown-toggle::after {*/
+/*    float: right;*/
+/*    margin-left: 8px;*/
+/*    font-size: 0.7rem;*/
+/*  }*/
+/*}*/
+
+@media (max-width: 991px) {
+  /* hide all dropdowns by default on mobile */
+  .dropdown-menu {
+    display: none !important;
+    position: static !important;
+  }
+  /* when we toggle .show via JS, un‑hide it */
+  .dropdown-menu.show {
+    display: block !important;
+  }
+}
