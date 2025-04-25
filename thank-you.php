@@ -15,13 +15,13 @@ require("sendgrid-php/sendgrid-php.php");
 require("php-uk/textlocal.class.php");
 
 $servername = "localhost";
-$username = "merakhata_app";
-$password = "!I4R5ZTUhmio";
+$username = "rachit_shootorder";
+$password = "Shootorder@123#";
 
 // $username = "staging-merakhata-new";
 
 // $password = "merakhata@321#";
-$dbname = "merakhata_app";
+$dbname = "rachit_merakhata_app";
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 // Check connection
