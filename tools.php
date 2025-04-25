@@ -27,7 +27,7 @@ $displayCurrency = 'INR';
 
 
 $servername = "localhost";
-$username = "rachit_merakhata_new";
+$username = "rachit_shootorder";
 $password = "Shootorder@123#";
 $dbname = "rachit_merakhata_new";
 
