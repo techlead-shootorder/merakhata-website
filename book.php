@@ -21,9 +21,9 @@ $displayCurrency = 'INR';
 
 
 $servername = "localhost";
-$username = "merakhata_new";
-$password = "Khata@321#";
-$dbname = "merakhata_new";
+$username = "rachit_shootorder";
+$password = "Shootorder@123#";
+$dbname = "rachit_merakhata_app";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
@@ -56,7 +56,7 @@ if (isset($_POST['submit'])) {
     }
 }
 
-$link = mysqli_connect("localhost", "merakhata_app", "!I4R5ZTUhmio", "merakhata_app");
+$link = mysqli_connect("localhost", "rachit_shootorder", "Shootorder@123#", "rachit_merakhata_app");
 
 if ($link === false) {
     die("ERROR: Could not connect. " . mysqli_connect_error());
@@ -92,6 +92,7 @@ if ($result = mysqli_query($link, $sql)) {
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title><?php echo $data["name"] ?></title>
@@ -404,7 +405,8 @@ if ($result = mysqli_query($link, $sql)) {
                                                     <hr>
                                                     <div>
                                                         <h4><span class="text-left">Payable Amount</span><span
-                                                                class="float-right">&#8377; <?php echo $data["price"]; ?>
+                                                                class="float-right">&#8377;
+                                                                <?php echo $data["price"]; ?>
                                                                 INR</span></h4>
                                                     </div>
                                                     <br>
@@ -418,13 +420,15 @@ if ($result = mysqli_query($link, $sql)) {
                                                         <input id="razorPay_Email" type="email"
                                                             placeholder="Enter Email"
                                                             class="border-1 form-control  rounded-0 p-2 frm"
-                                                            name="email" value="<?php echo $_POST['email']; ?>" required>
+                                                            name="email" value="<?php echo $_POST['email']; ?>"
+                                                            required>
                                                     </div>
                                                     <div class="form-group">
                                                         <input id="razorPay_Phone" type="tel" placeholder="Enter Number"
                                                             pattern="[1-9]{1}[0-9]{9}"
                                                             class="border-1 form-control  rounded-0 p-2 frm"
-                                                            name="phone" value="<?php echo $_POST['phone']; ?>" required>
+                                                            name="phone" value="<?php echo $_POST['phone']; ?>"
+                                                            required>
                                                     </div>
                                                     <input type="hidden" name="form" value="<?php echo $name; ?>" />
                                                     <input type="hidden" name="pay" value="1" />
